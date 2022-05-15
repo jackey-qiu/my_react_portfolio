@@ -1,7 +1,7 @@
 import "./contact.css";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { CgMail } from "react-icons/cg";
 
 function Contact() {
   return (
@@ -9,31 +9,31 @@ function Contact() {
       <h1>Contact Me</h1>
       <div className="contact-links">
         <a
-          href="https://www.youtube.com/channel/UCzoBz4EKrLOvm3L4DDNc_pg"
+          href="#"
           className="contact youtube"
           target={"blank"}
         >
           <AiOutlineYoutube className="icon" />
           <h2>
-            youtube <span>Creative Ambition</span>
+            youtube <span>To be there soon</span>
           </h2>
         </a>
 
         <a
-          href="https://wa.link/bywzv3"
+          href="https://wa.me/49017666534412"
           className="contact whatsapp"
           target={"blank"}
         >
           <AiOutlineWhatsApp className="icon" />
           <h2>
-            whatsapp <span>+233 20 918 2598</span>
+            whatsapp <span>+49 0176 6653 4412</span>
           </h2>
         </a>
 
-        <a href="#" className="contact instagram">
-          <AiOutlineInstagram className="icon" />
+        <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=crqiu2@gmail.com" className="contact gmail">
+          <CgMail className="icon" />
           <h2>
-            instagram <span>_Creative_Ambition_</span>
+            gmail <span>_Creative_Ambition_</span>
           </h2>
         </a>
       </div>

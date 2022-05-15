@@ -7,9 +7,9 @@ function Header() {
         <p>
           I<span>'</span>m
         </p>
-        Chrys
+        Canrong Qiu
       </h3>
-      <h2>Front-End Web Developer</h2>
+      <h2>Scientifc Reseacher using morden synchrotron X-ray techniques, Python/JavaScript programmer and data scientist</h2>
     </div>
   );
 }
